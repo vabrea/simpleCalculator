@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="simplecalc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Oswald:wght@200;300;500&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Simple Calculator</title>
 
 </head>
@@ -13,13 +16,18 @@
         <h1>Simple JavaScript Calculator</h1>
     </header>
     <main>
-        <p>Click on the button to start calculations:</p>
-        <button onclick="calculation();">Start</button>
-
-        <div id="results">
-
-        
+        <h2>Click on the button to start calculations:</h2>
+        <div class="button">
+            <button onclick="calculation();">Start</button>
         </div>
+        <hr>
+        <div class="results-container">
+            <div id="add"> </div>
+            <div id="sub"></div>
+            <div id="multiply"></div>
+            <div id="divide"></div>
+        </div>
+        <img src="https://cdn.dribbble.com/users/470545/screenshots/3471475/media/ecd560802c9d4abc42be6ea6c05bb851.gif">
     </main>
     <footer>
 
